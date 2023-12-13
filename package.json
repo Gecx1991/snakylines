@@ -1,0 +1,34 @@
+{
+  "name": "tsDemo",
+  "version": "1.0.0",
+  "description": "My first typeScript demo project on 2023-12-13,HangZhou",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack serve --open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/preset-env": "^7.12.7",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^3.0.0",
+    "core-js": "^3.8.0",
+    "css-loader": "^6.8.1",
+    "html-webpack-plugin": "^4.5.0",
+    "less": "^4.2.0",
+    "less-loader": "^11.1.3",
+    "postcss": "^8.4.32",
+    "postcss-loader": "^7.3.3",
+    "postcss-preset-env": "^9.3.0",
+    "style-loader": "^3.3.3",
+    "ts-loader": "^8.0.11",
+    "typescript": "^4.1.2",
+    "webpack": "^5.6.0",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
